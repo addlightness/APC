@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'AthensPro';
+    src: url('Athens_Pro.otf') format('opentype');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'AthensPro', 'Times New Roman', Georgia, serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container p {
+    font-size: 2vw; /* Adjusts size based on the width of the viewport */
+}
+
+img {
+    max-width: 40%; /* As per your specification to set the GIF size */
+    height: auto;
+}
