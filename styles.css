@@ -17,10 +17,34 @@ body, html {
 }
 
 .container p {
-    font-size: 2vw; /* Adjusts size based on the width of the viewport */
+    font-size: 3vw; /* Adjusts size based on the width of the viewport */
 }
 
 img {
     max-width: 40%; /* As per your specification to set the GIF size */
     height: auto;
+}
+
+#mc_embed_signup {
+    font-size: 2vw; /* Matching the title font size with Athens Wasn't Built in a Day */
+}
+
+input[type=email], input[type=submit] {
+    font-family: 'AthensPro', 'Times New Roman', Georgia, serif;
+    font-size: 16px; /* Adjust as necessary */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #000000; /* Example color, change as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #a7ad47;
 }
